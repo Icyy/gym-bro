@@ -8,8 +8,6 @@ function App() {
     <div className="App">
       <NavBar />
       <HomePage user={Data.user} workouts={Data.workouts}/>
-      <LoginForm />
-      <SignUpForm />
     </div>
   );
 }
